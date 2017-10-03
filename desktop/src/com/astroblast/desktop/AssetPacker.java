@@ -27,11 +27,11 @@ public class AssetPacker {
 //				"asteroids"
 //		);
 
-//		TexturePacker.process(settings,
-//				RAW_ASSETS_PATH + "/skin",
-//				ASSETS_PATH + "/ui",
-//				"uiskin"
-//		);
+		TexturePacker.process(settings,
+				RAW_ASSETS_PATH + "/uiskin",
+				ASSETS_PATH + "/ui",
+				"uiskin"
+		);
 
 		// larger image size to accommodate 4 starfield textures
 		settings.maxWidth = 2048;
